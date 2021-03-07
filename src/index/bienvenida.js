@@ -1,3 +1,5 @@
 import '../index/style.scss';
 
-alert("Bienvenido al chat de webpack");
+const initAlert = () => alert("Bienvenido al chat de webpack");
+
+initAlert();
